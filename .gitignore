@@ -1,0 +1,19 @@
+#gitignore file
+
+#ignore a file
+.filename
+#ignore the dir
+nameofthefolder/
+
+#wild card way ignoring files
+*.log
+name.html~
+
+!myFile.log
+
+logs/
+!logs/myFile.log
+
+**/logs 
+**/logs/*.log
+logs/**/*.log
